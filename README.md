@@ -128,7 +128,7 @@
   </picture>
 </div>
 
-<img src="assets/walk-strip.svg" width="100%" alt="Two developers walking together, one with coffee and one with a laptop, while balls bounce along the path">
+<img src="assets/story-strip.svg" width="100%" alt="Seven small animated scenes: a businessman thinking of custom solutions, kids flying kites, a dog running, faith under a glowing star, a preacher speaking, students in class, and a person walking toward freedom">
 
 ## Start a conversation
 
