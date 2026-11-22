@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 356" width="900" height="356" role="img" aria-label="Seven small animated scenes: a businessman thinking of custom solutions, kids flying kites, a dog running, a figure with raised hands under a glowing star, a preacher speaking to an audience, students in class, and a person walking toward an open gate and the sunrise" xmlns:c2pa="http://c2pa.org/manifest">
+  <defs>
+    <linearGradient id="gBiz" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1A1B27"/><stop offset="1" stop-color="#26324F"/></linearGradient>
+    <linearGradient id="gKite" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1D3557"/><stop offset="1" stop-color="#4F7FB0"/></linearGradient>
+    <linearGradient id="gDog" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A2238"/><stop offset="1" stop-color="#5A3E4F"/></linearGradient>
+    <linearGradient id="gFaith" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset="1" stop-color="#232C66"/></linearGradient>
+    <linearGradient id="gPreach" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2A2238"/><stop offset="1" stop-color="#3D3158"/></linearGradient>
+    <linearGradient id="gStud" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1F2A44"/><stop offset="1" stop-color="#2F4272"/></linearGradient>
+    <linearGradient id="gFree" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121733"/><stop offset=".55" stop-color="#4A2D57"/><stop offset=".8" stop-color="#C2603A"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+    <radialGradient id="gHalo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FDE68A" stop-opacity=".6"/><stop offset="1" stop-color="#FDE68A" stop-opacity="0"/></radialGradient>
+    <linearGradient id="gLight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDE68A" stop-opacity=".95"/><stop offset="1" stop-color="#FDE68A" stop-opacity=".15"/></linearGradient>
+    <clipPath id="c"><rect width="213" height="170" rx="16"/></clipPath>
+    <clipPath id="cw"><rect width="442" height="170" rx="16"/></clipPath>
+  </defs>
+
+  <style>
+    .nod{transform-box:fill-box;transform-origin:50% 100%;animation:nod 2.4s ease-in-out infinite alternate}
+    @keyframes nod{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
+    .hop{animation:hop .45s ease-in-out infinite alternate}
+    @keyframes hop{from{transform:translateY(0)}to{transform:translateY(-3px)}}
+    .tw{animation:tw 3s ease-in-out infinite alternate}
+    @keyframes tw{from{opacity:.15}to{opacity:.95}}
+    .spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3.4s ease-in-out infinite alternate}
+    @keyframes pulse{from{transform:scale(.9);opacity:.7}to{transform:scale(1.15);opacity:1}}
+    .part{transform-box:fill-box;transform-origin:50% 0%}
+    .s1{animation:swing .8s ease-in-out infinite alternate}
+    .s2{animation:swing .8s ease-in-out infinite alternate-reverse}
+    @keyframes swing{from{transform:rotate(-30deg)}to{transform:rotate(30deg)}}
+    .bounce{transform-box:fill-box;transform-origin:center bottom;animation:bounce 1.1s infinite}
+    @keyframes bounce{0%{transform:translateY(0);animation-timing-function:ease-out}50%{transform:translateY(-34px);animation-timing-function:ease-in}100%{transform:translateY(0)}}
+    .code{transform-box:fill-box;transform-origin:left center;animation:typeline 6s ease-in-out infinite}
+    @keyframes typeline{0%{transform:scaleX(0)}16%,80%{transform:scaleX(1)}94%,100%{transform:scaleX(0)}}
+
+    /* 1 businessman */
+    .pd{transform-box:fill-box;transform-origin:center;animation:grow 4.4s ease-in-out infinite}
+    .pc{transform-box:fill-box;transform-origin:0% 100%;animation:grow 4.4s ease-in-out infinite}
+    @keyframes grow{0%{transform:scale(0)}12%,84%{transform:scale(1)}96%,100%{transform:scale(0)}}
+    .bulb{transform-box:fill-box;transform-origin:center;animation:bulb 1.4s ease-in-out infinite alternate}
+    @keyframes bulb{from{transform:scale(1);opacity:.75}to{transform:scale(1.22);opacity:1}}
+    .gear{transform-box:fill-box;transform-origin:center;animation:spin 5s linear infinite}
+
+    /* 2 kites */
+    .kite{transform-box:fill-box;transform-origin:0% 100%;animation:sway 3.2s ease-in-out infinite alternate}
+    @keyframes sway{from{transform:rotate(-6deg)}to{transform:rotate(7deg)}}
+    .flut{transform-box:fill-box;transform-origin:50% 0%;animation:flut 1s ease-in-out infinite alternate}
+    @keyframes flut{from{transform:rotate(-9deg)}to{transform:rotate(9deg)}}
+    .drift{animation:drift 16s linear infinite}
+    @keyframes drift{from{transform:translateX(-70px)}to{transform:translateX(270px)}}
+
+    /* 3 dog */
+    .dogrun{transform-box:fill-box;transform-origin:center;animation:dogrun 6.4s linear infinite}
+    @keyframes dogrun{0%{transform:translateX(0) scaleX(1)}46%{transform:translateX(96px) scaleX(1)}50%{transform:translateX(96px) scaleX(-1)}96%{transform:translateX(0) scaleX(-1)}100%{transform:translateX(0) scaleX(1)}}
+    .dl{transform-box:fill-box;transform-origin:50% 0%}
+    .g1{animation:swing .34s ease-in-out infinite alternate}
+    .g2{animation:swing .34s ease-in-out infinite alternate-reverse}
+    .wag{transform-box:fill-box;transform-origin:50% 100%;animation:wag .22s ease-in-out infinite alternate}
+    @keyframes wag{from{transform:rotate(-22deg)}to{transform:rotate(22deg)}}
+    .ear{transform-box:fill-box;transform-origin:50% 0%;animation:flap .34s ease-in-out infinite alternate}
+    @keyframes flap{from{transform:rotate(-12deg)}to{transform:rotate(14deg)}}
+
+    /* 4 faith */
+    .lift{animation:lift 3.6s ease-in-out infinite alternate}
+    @keyframes lift{from{transform:translateY(0)}to{transform:translateY(-3px)}}
+    .spark{animation:spark 4s ease-out infinite}
+    @keyframes spark{0%{transform:translateY(0);opacity:0}15%{opacity:1}100%{transform:translateY(-42px);opacity:0}}
+
+    /* 5 preacher */
+    .gest{transform-box:fill-box;transform-origin:50% 0%;animation:gest 1.5s ease-in-out infinite alternate}
+    @keyframes gest{from{transform:rotate(-14deg)}to{transform:rotate(16deg)}}
+    .talk{transform-box:fill-box;transform-origin:center;animation:talk .35s ease-in-out infinite alternate}
+    @keyframes talk{from{transform:scaleY(.4)}to{transform:scaleY(1.4)}}
+    .wave{transform-box:fill-box;transform-origin:0% 50%;animation:wave 2.4s ease-out infinite}
+    @keyframes wave{0%{transform:scale(.4);opacity:0}30%{opacity:.9}100%{transform:scale(1.5);opacity:0}}
+    .fly{animation:fly 4s linear infinite}
+    @keyframes fly{0%{transform:translate(0,0);opacity:0}15%{opacity:1}100%{transform:translate(64px,20px);opacity:0}}
+    .aud{animation:hop 1.6s ease-in-out infinite alternate}
+
+    /* 6 students */
+    .waveh{transform-box:fill-box;transform-origin:50% 100%;animation:waveh .55s ease-in-out infinite alternate}
+    @keyframes waveh{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+    .cap{transform-box:fill-box;transform-origin:center;animation:toss 3.4s ease-in-out infinite}
+    @keyframes toss{0%,10%{transform:translate(0,0) rotate(0)}45%{transform:translate(12px,-54px) rotate(200deg)}80%,100%{transform:translate(0,0) rotate(360deg)}}
+
+    /* 7 freedom */
+    .free{animation:freewalk 12s linear infinite}
+    @keyframes freewalk{0%{transform:translateX(0);opacity:0}6%{opacity:1}86%{transform:translateX(205px);opacity:1}100%{transform:translateX(240px);opacity:0}}
+    .fly2{animation:fly2 7s linear infinite}
+    @keyframes fly2{0%{transform:translate(0,0);opacity:0}10%{opacity:1}100%{transform:translate(190px,-46px);opacity:0}}
+    .wing{transform-box:fill-box;transform-origin:center;animation:flapw .5s ease-in-out infinite alternate}
+    @keyframes flapw{from{transform:scaleY(1)}to{transform:scaleY(-.9)}}
+
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <!-- 1. Businessman thinking of custom solutions -->
+  <g transform="translate(0 0)"><g clip-path="url(#c)">
+    <rect width="213" height="170" fill="url(#gBiz)"/>
+    <rect y="150" width="213" height="20" fill="#141622"/>
+    <rect x="50" y="104" width="7" height="30" rx="3.5" fill="#64748B"/>
+    <rect x="61" y="138" width="7" height="14" rx="2" fill="#1E293B"/>
+    <rect x="72" y="138" width="7" height="14" rx="2" fill="#1E293B"/>
+    <rect x="56" y="100" width="28" height="42" rx="9" fill="#64748B"/>
+    <path d="M70 100L64 104L70 108L76 104z" fill="#E2E8F0"/>
+    <path d="M70 105l-3.5 8 3.5 14 3.5-14z" fill="#EF4444"/>
+    <path d="M82 108Q97 106 80 95" fill="none" stroke="#64748B" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="79" cy="95" r="4.2" fill="#F1C9A5"/>
+    <g class="nod">
+      <circle cx="70" cy="88" r="12" fill="#F1C9A5"/>
+      <path d="M58 86a12 12 0 0 1 24 0q-12-8-24 0z" fill="#1F2937"/>
+      <circle cx="75" cy="89" r="1.6" fill="#1A1B27"/>
+      <path d="M68 95h6" stroke="#1A1B27" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+    <circle class="pd" cx="88" cy="76" r="3" fill="#F1F5F9"/>
+    <circle class="pd" style="animation-delay:.25s" cx="97" cy="66" r="4.5" fill="#F1F5F9"/>
+    <g class="pc" style="animation-delay:.6s">
+      <circle cx="112" cy="42" r="13" fill="#F1F5F9"/><circle cx="128" cy="32" r="16" fill="#F1F5F9"/>
+      <circle cx="147" cy="38" r="14" fill="#F1F5F9"/><circle cx="150" cy="54" r="12" fill="#F1F5F9"/>
+      <circle cx="130" cy="56" r="15" fill="#F1F5F9"/><circle cx="114" cy="56" r="11" fill="#F1F5F9"/>
+      <circle class="bulb" cx="128" cy="41" r="9" fill="#FBBF24"/>
+      <rect x="124" y="49" width="8" height="5" rx="1.5" fill="#94A3B8"/>
+      <path class="tw" d="M128 25v-5M140 29l4-3M116 29l-4-3M144 41h5M112 41h-5" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" fill="none"/>
+      <circle class="gear" cx="148" cy="56" r="5.5" fill="none" stroke="#3B82F6" stroke-width="3" stroke-dasharray="2.8 2.8"/>
+      <circle cx="148" cy="56" r="2.2" fill="#3B82F6"/>
+    </g>
+  </g></g>
+
+  <!-- 2. Kids flying kites -->
+  <g transform="translate(229 0)"><g clip-path="url(#c)">
+    <rect width="213" height="170" fill="url(#gKite)"/>
+    <g class="drift"><ellipse cx="30" cy="30" rx="26" ry="8" fill="#FFFFFF" opacity=".3"/><ellipse cx="46" cy="24" rx="16" ry="7" fill="#FFFFFF" opacity=".3"/></g>
+    <g class="drift" style="animation-delay:-8s;animation-duration:22s"><ellipse cx="30" cy="62" rx="20" ry="6" fill="#FFFFFF" opacity=".25"/></g>
+    <g transform="translate(66 100)"><g class="kite">
+      <path d="M0 0Q20 -14 62 -40" fill="none" stroke="#E2E8F0" stroke-width="1.2"/>
+      <path d="M62 -84L78 -68L62 -40L46 -68z" fill="#F59E0B"/>
+      <path d="M62 -84L78 -68L62 -68z" fill="#FBBF24"/>
+      <path d="M62 -84V-40M46 -68H78" stroke="#B45309" stroke-width="1.2"/>
+      <g class="flut"><path d="M62 -40q-7 7 0 12q7 5 0 11q-7 5 0 10" fill="none" stroke="#E2E8F0" stroke-width="1.4"/><circle cx="62" cy="-28" r="2.2" fill="#EF4444"/><circle cx="62" cy="-17" r="2.2" fill="#34D399"/></g>
+    </g></g>
+    <g transform="translate(118 104) scale(.78)"><g class="kite" style="animation-delay:-1.3s;animation-duration:2.8s">
+      <path d="M0 0Q20 -14 62 -40" fill="none" stroke="#E2E8F0" stroke-width="1.4"/>
+      <path d="M62 -84L78 -68L62 -40L46 -68z" fill="#A78BFA"/>
+      <path d="M62 -84L78 -68L62 -68z" fill="#C4B5FD"/>
+      <path d="M62 -84V-40M46 -68H78" stroke="#5B21B6" stroke-width="1.4"/>
+      <g class="flut" style="animation-delay:-.4s"><path d="M62 -40q-7 7 0 12q7 5 0 11q-7 5 0 10" fill="none" stroke="#E2E8F0" stroke-width="1.6"/><circle cx="62" cy="-28" r="2.6" fill="#FBBF24"/><circle cx="62" cy="-17" r="2.6" fill="#EF4444"/></g>
+    </g></g>
+    <path d="M0 170V138Q55 116 120 134T213 128V170z" fill="#166534"/>
+    <path d="M0 138Q55 116 120 134T213 128" fill="none" stroke="#22C55E" stroke-width="2" opacity=".6"/>
+    <g class="nod" style="animation-duration:3s"><circle cx="52" cy="104" r="6.5" fill="#F1C9A5"/><path d="M45.5 103a6.5 6.5 0 0 1 13 0q-6.5-4-13 0z" fill="#3B2A20"/></g>
+    <rect x="46" y="111" width="12" height="14" rx="4" fill="#EF4444"/>
+    <rect x="47" y="125" width="4" height="7" rx="1.5" fill="#1E293B"/><rect x="53" y="125" width="4" height="7" rx="1.5" fill="#1E293B"/>
+    <path d="M57 114L66 100" stroke="#EF4444" stroke-width="4" stroke-linecap="round"/><circle cx="66" cy="100" r="2.6" fill="#F1C9A5"/>
+    <g class="nod" style="animation-duration:2.6s"><circle cx="104" cy="108" r="6" fill="#C68642"/><path d="M98 107a6 6 0 0 1 12 0q-6-4-12 0z" fill="#111827"/></g>
+    <rect x="98" y="114" width="12" height="14" rx="4" fill="#22C55E"/>
+    <rect x="99" y="128" width="4" height="7" rx="1.5" fill="#1E293B"/><rect x="105" y="128" width="4" height="7" rx="1.5" fill="#1E293B"/>
+    <path d="M109 117L118 104" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/><circle cx="118" cy="104" r="2.6" fill="#C68642"/>
+  </g></g>
+
+  <!-- 3. Dog running around -->
+  <g transform="translate(458 0)"><g clip-path="url(#c)">
+    <rect width="213" height="170" fill="url(#gDog)"/>
+    <circle class="tw" cx="40" cy="26" r="1.6" fill="#FDE68A"/><circle class="tw" style="animation-delay:-1.5s" cx="120" cy="40" r="1.4" fill="#FDE68A"/><circle class="tw" style="animation-delay:-2.2s" cx="180" cy="22" r="1.6" fill="#FDE68A"/>
+    <rect y="150" width="213" height="20" fill="#14532D"/>
+    <line x1="0" y1="151" x2="213" y2="151" stroke="#22C55E" stroke-width="2" opacity=".5"/>
+    <circle class="bounce" cx="182" cy="143" r="7" fill="#FBBF24"/>
+    <g transform="translate(56 128)"><g class="dogrun"><g class="hop" style="animation-duration:.34s">
+      <g transform="translate(-22 -4) rotate(-45)"><rect class="wag" x="-3" y="-17" width="6" height="17" rx="3" fill="#B45309"/></g>
+      <rect class="dl g2" x="-17" y="4" width="6" height="18" rx="3" fill="#92400E"/>
+      <rect class="dl g1" x="8" y="4" width="6" height="18" rx="3" fill="#92400E"/>
+      <ellipse cx="0" cy="0" rx="24" ry="11" fill="#D97706"/>
+      <rect class="dl g1" x="-11" y="4" width="6" height="18" rx="3" fill="#B45309"/>
+      <rect class="dl g2" x="14" y="4" width="6" height="18" rx="3" fill="#B45309"/>
+      <rect x="16" y="-8" width="5" height="13" rx="2" fill="#EF4444" transform="rotate(-12 18 -2)"/>
+      <circle cx="26" cy="-9" r="10" fill="#D97706"/>
+      <ellipse cx="34" cy="-6" rx="7" ry="5" fill="#FBBF24"/>
+      <circle cx="39" cy="-7" r="2" fill="#1A1B27"/>
+      <circle cx="27" cy="-11" r="1.8" fill="#1A1B27"/>
+      <g transform="translate(21 -16) rotate(20)"><ellipse class="ear" cx="0" cy="4" rx="4" ry="8" fill="#92400E"/></g>
+    </g></g></g>
+  </g></g>
+
+  <!-- 4. Faith and belief -->
+  <g transform="translate(687 0)"><g clip-path="url(#c)">
+    <rect width="213" height="170" fill="url(#gFaith)"/>
+    <circle class="tw" cx="24" cy="30" r="1.6" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-1s" cx="60" cy="14" r="1.3" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-2s" cx="170" cy="22" r="1.6" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-.6s" cx="194" cy="58" r="1.3" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-1.7s" cx="30" cy="74" r="1.3" fill="#E2E8F0"/>
+    <circle class="pulse" cx="106" cy="44" r="46" fill="url(#gHalo)"/>
+    <g class="spin" style="animation-duration:30s"><path d="M106 16v10M106 62v10M78 44h10M124 44h10M86 24l7 7M119 57l7 7M86 64l7-7M119 31l7-7" stroke="#FDE68A" stroke-width="2" stroke-linecap="round" fill="none"/></g>
+    <path class="pulse" d="M106 30L109.5 40.5L120 44L109.5 47.5L106 58L102.5 47.5L92 44L102.5 40.5z" fill="#FEF3C7"/>
+    <rect x="97" y="112" width="18" height="28" rx="7" fill="#60A5FD"/>
+    <g class="lift">
+      <path d="M99 117L90 96M113 117L122 96" stroke="#60A5FD" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="90" cy="94" r="3.4" fill="#F1C9A5"/><circle cx="122" cy="94" r="3.4" fill="#F1C9A5"/>
+    </g>
+    <circle cx="106" cy="103" r="8" fill="#1F2937"/>
+    <path d="M0 170V144Q50 124 106 130T213 140V170z" fill="#0F172A"/>
+    <path d="M0 144Q50 124 106 130T213 140" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <circle class="spark" cx="90" cy="92" r="1.8" fill="#FDE68A"/>
+    <circle class="spark" style="animation-delay:1.2s" cx="122" cy="92" r="1.8" fill="#FDE68A"/>
+    <circle class="spark" style="animation-delay:2.4s" cx="100" cy="88" r="1.6" fill="#FEF3C7"/>
+    <circle class="spark" style="animation-delay:.6s" cx="113" cy="88" r="1.6" fill="#FEF3C7"/>
+    <circle class="spark" style="animation-delay:3.2s" cx="106" cy="84" r="1.8" fill="#FDE68A"/>
+  </g></g>
+
+  <!-- 5. Preacher -->
+  <g transform="translate(0 186)"><g clip-path="url(#c)">
+    <rect width="213" height="170" fill="url(#gPreach)"/>
+    <rect y="150" width="213" height="20" fill="#1B1626"/>
+    <rect x="14" y="140" width="112" height="12" rx="3" fill="#4B3B66"/>
+    <rect x="46" y="92" width="24" height="50" rx="10" fill="#E2E8F0"/>
+    <path d="M54 94L58 118L62 94z" fill="#3B82F6"/>
+    <g transform="translate(68 98) rotate(-62)"><g class="gest"><rect x="-3.5" y="0" width="7" height="24" rx="3.5" fill="#E2E8F0"/><circle cx="0" cy="25" r="3.8" fill="#C68642"/></g></g>
+    <circle cx="58" cy="80" r="9" fill="#C68642"/>
+    <path d="M49 78a9 9 0 0 1 18 0q-9-6-18 0z" fill="#1F2937"/>
+    <path d="M50 82q8 14 16 0q-8 5-16 0z" fill="#1F2937"/>
+    <circle cx="55" cy="79" r="1.3" fill="#1A1B27"/><circle cx="61" cy="79" r="1.3" fill="#1A1B27"/>
+    <ellipse class="talk" cx="58" cy="85" rx="2.4" ry="1.6" fill="#7F1D1D"/>
+    <path d="M32 118H84L80 126H36z" fill="#B58B54"/>
+    <path d="M36 126H80L84 140H32z" fill="#8B6B43"/>
+    <path d="M44 117l14-4 14 4-14 3z" fill="#F8FAFC"/>
+    <g transform="translate(70 84)">
+      <path class="wave" d="M0 -7q8 7 0 14" fill="none" stroke="#FBBF24" stroke-width="2.4" stroke-linecap="round"/>
+      <path class="wave" style="animation-delay:.45s" d="M6 -10q10 10 0 20" fill="none" stroke="#FBBF24" stroke-width="2.4" stroke-linecap="round"/>
+      <path class="wave" style="animation-delay:.9s" d="M12 -13q12 13 0 26" fill="none" stroke="#FBBF24" stroke-width="2.4" stroke-linecap="round"/>
+    </g>
+    <path class="fly" d="M92 96C84 89 88 82 92 87C96 82 100 89 92 96z" fill="#F472B6"/>
+    <path class="fly" style="animation-delay:1.3s" d="M92 96C84 89 88 82 92 87C96 82 100 89 92 96z" fill="#FBBF24"/>
+    <path class="fly" style="animation-delay:2.6s" d="M92 96C84 89 88 82 92 87C96 82 100 89 92 96z" fill="#34D399"/>
+    <g class="aud"><rect x="128" y="119" width="16" height="26" rx="7" fill="#60A5FA"/><circle cx="136" cy="112" r="6.5" fill="#F1C9A5"/><path d="M129.5 111a6.5 6.5 0 0 1 13 0z" fill="#3B2A20"/></g>
+    <g class="aud" style="animation-delay:-.5s"><rect x="152" y="119" width="16" height="26" rx="7" fill="#F59E0B"/><circle cx="160" cy="112" r="6.5" fill="#C68642"/><path d="M153.5 111a6.5 6.5 0 0 1 13 0z" fill="#111827"/></g>
+    <g class="aud" style="animation-delay:-1s"><rect x="176" y="119" width="16" height="26" rx="7" fill="#A78BFA"/><circle cx="184" cy="112" r="6.5" fill="#E0AC69"/><path d="M177.5 111a6.5 6.5 0 0 1 13 0z" fill="#1F2937"/></g>
+    <g class="aud" style="animation-delay:-.3s"><rect x="140" y="138" width="18" height="14" rx="7" fill="#34D399"/><circle cx="149" cy="131" r="7.5" fill="#8D5524"/><path d="M141.5 130a7.5 7.5 0 0 1 15 0z" fill="#111827"/></g>
+    <g class="aud" style="animation-delay:-.8s"><rect x="164" y="138" width="18" height="14" rx="7" fill="#F472B6"/><circle cx="173" cy="131" r="7.5" fill="#F1C9A5"/><path d="M165.5 130a7.5 7.5 0 0 1 15 0z" fill="#5B3A29"/></g>
+  </g></g>
+
+  <!-- 6. Students -->
+  <g transform="translate(229 186)"><g clip-path="url(#c)">
+    <rect width="213" height="170" fill="url(#gStud)"/>
+    <rect x="20" y="20" width="173" height="54" rx="5" fill="#0F172A" stroke="#475569" stroke-width="2"/>
+    <rect class="code" x="32" y="32" width="86" height="5" rx="2.5" fill="#E2E8F0"/>
+    <rect class="code" style="animation-delay:.7s" x="32" y="44" width="124" height="5" rx="2.5" fill="#70A5FD"/>
+    <rect class="code" style="animation-delay:1.4s" x="32" y="56" width="64" height="5" rx="2.5" fill="#FBBF24"/>
+    <rect y="150" width="213" height="20" fill="#161A2E"/>
+    <!-- student 1 with book -->
+    <rect x="42" y="138" width="6" height="14" rx="2" fill="#1E293B"/><rect x="52" y="138" width="6" height="14" rx="2" fill="#1E293B"/>
+    <rect x="39" y="108" width="22" height="32" rx="8" fill="#60A5FA"/>
+    <g class="nod"><circle cx="50" cy="98" r="9" fill="#F1C9A5"/><path d="M41 96a9 9 0 0 1 18 0q-9-6-18 0z" fill="#5B3A29"/><circle cx="54" cy="99" r="1.4" fill="#1A1B27"/></g>
+    <g class="hop" style="animation-duration:1s"><rect x="42" y="118" width="16" height="12" rx="1.5" fill="#F59E0B"/><path d="M50 118v12" stroke="#FFFFFF" stroke-width="1"/></g>
+    <!-- student 2 raising hand -->
+    <rect x="98" y="138" width="6" height="14" rx="2" fill="#1E293B"/><rect x="108" y="138" width="6" height="14" rx="2" fill="#1E293B"/>
+    <rect x="95" y="108" width="22" height="32" rx="8" fill="#FBBF24"/>
+    <rect x="90" y="112" width="6" height="24" rx="3" fill="#FBBF24"/>
+    <g transform="translate(116 114)"><g class="waveh"><rect x="-3" y="-24" width="6" height="24" rx="3" fill="#FBBF24"/><circle cx="0" cy="-26" r="3.8" fill="#C68642"/></g></g>
+    <g class="nod" style="animation-delay:-.8s"><circle cx="106" cy="98" r="9" fill="#C68642"/><path d="M97 96a9 9 0 0 1 18 0q-9-6-18 0z" fill="#111827"/><circle cx="110" cy="99" r="1.4" fill="#1A1B27"/></g>
+    <!-- student 3 tossing cap -->
+    <rect x="154" y="138" width="6" height="14" rx="2" fill="#1E293B"/><rect x="164" y="138" width="6" height="14" rx="2" fill="#1E293B"/>
+    <rect x="151" y="108" width="22" height="32" rx="8" fill="#34D399"/>
+    <rect x="146" y="112" width="6" height="24" rx="3" fill="#34D399"/><rect x="172" y="112" width="6" height="24" rx="3" fill="#34D399"/>
+    <g class="nod" style="animation-delay:-1.6s"><circle cx="162" cy="98" r="9" fill="#E0AC69"/><path d="M153 96a9 9 0 0 1 18 0q-9-6-18 0z" fill="#1F2937"/><circle cx="166" cy="99" r="1.4" fill="#1A1B27"/></g>
+    <g transform="translate(162 88)"><g class="cap"><path d="M-13 0L0 -6L13 0L0 6z" fill="#111827"/><path d="M-7 2v5h14v-5" fill="#1F2937"/><path d="M12 0v8" stroke="#FBBF24" stroke-width="1.6"/><circle cx="12" cy="9" r="1.8" fill="#FBBF24"/></g></g>
+  </g></g>
+
+  <!-- 7. Walking toward freedom -->
+  <g transform="translate(458 186)"><g clip-path="url(#cw)">
+    <rect width="442" height="170" fill="url(#gFree)"/>
+    <circle class="tw" cx="40" cy="22" r="1.6" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-1s" cx="120" cy="38" r="1.3" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-2s" cx="210" cy="16" r="1.6" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-.7s" cx="280" cy="40" r="1.3" fill="#E2E8F0"/><circle class="tw" style="animation-delay:-1.6s" cx="410" cy="24" r="1.6" fill="#E2E8F0"/>
+    <circle class="pulse" cx="332" cy="112" r="62" fill="url(#gHalo)"/>
+    <g class="spin" style="animation-duration:40s"><path d="M332 70v14M332 140v14M290 112h14M360 112h14M302 82l10 10M352 132l10 10M302 142l10-10M352 92l10-10" stroke="#FDE68A" stroke-width="2.4" stroke-linecap="round" fill="none" opacity=".8"/></g>
+    <circle cx="332" cy="112" r="22" fill="#FDE68A"/>
+    <rect y="140" width="442" height="30" fill="#2B1B3A"/>
+    <path d="M311 140V94Q332 74 353 94V140z" fill="url(#gLight)"/>
+    <rect x="302" y="86" width="9" height="56" rx="2" fill="#3B4261"/><rect x="353" y="86" width="9" height="56" rx="2" fill="#3B4261"/>
+    <path d="M302 90Q332 54 362 90" fill="none" stroke="#3B4261" stroke-width="8"/>
+    <path d="M302 96L282 104V142L302 140z" fill="#2E3350" stroke="#475569" stroke-width="1.5"/>
+    <path d="M362 96L382 104V142L362 140z" fill="#2E3350" stroke="#475569" stroke-width="1.5"/>
+    <g fill="none" stroke="#94A3B8" stroke-width="2.4"><ellipse cx="22" cy="154" rx="8" ry="4.5"/><ellipse cx="38" cy="154" rx="8" ry="4.5"/><path d="M52 154a8 4.5 0 0 1 8-4"/></g>
+    <g transform="translate(150 70)"><g class="fly2"><path class="wing" d="M0 0q5-7 10 0q5-7 10 0" fill="none" stroke="#FDE68A" stroke-width="1.8" stroke-linecap="round"/></g></g>
+    <g transform="translate(190 92)"><g class="fly2" style="animation-delay:-2s"><path class="wing" style="animation-delay:-.2s" d="M0 0q5-7 10 0q5-7 10 0" fill="none" stroke="#FDE68A" stroke-width="1.8" stroke-linecap="round"/></g></g>
+    <g transform="translate(110 100)"><g class="fly2" style="animation-delay:-4s"><path class="wing" style="animation-delay:-.35s" d="M0 0q5-7 10 0q5-7 10 0" fill="none" stroke="#FDE68A" stroke-width="1.8" stroke-linecap="round"/></g></g>
+    <g transform="translate(230 60)"><g class="fly2" style="animation-delay:-5.5s"><path class="wing" d="M0 0q5-7 10 0q5-7 10 0" fill="none" stroke="#FDE68A" stroke-width="1.8" stroke-linecap="round"/></g></g>
+    <g transform="translate(70 152)"><g class="free">
+      <ellipse cx="0" cy="2" rx="14" ry="3" fill="#000000" opacity=".3"/>
+      <g class="hop">
+        <rect class="part s2" x="-3" y="-52" width="6" height="22" rx="3" fill="#CBD5E1"/>
+        <rect class="part s2" x="-4" y="-30" width="8" height="30" rx="4" fill="#64748B"/>
+        <rect class="part s1" x="-4" y="-30" width="8" height="30" rx="4" fill="#94A3B8"/>
+        <rect x="-10" y="-56" width="20" height="30" rx="9" fill="#E2E8F0"/>
+        <circle cx="0" cy="-68" r="10" fill="#F1C9A5"/>
+        <path d="M-10 -70a10 10 0 0 1 20 0q-10-7-20 0z" fill="#2B2230"/>
+        <circle cx="4" cy="-67" r="1.6" fill="#1A1B27"/>
+        <rect class="part s1" x="-3" y="-52" width="6" height="22" rx="3" fill="#F1F5F9"/>
+      </g>
+    </g></g>
+  </g></g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyMjdiMDQ3NC05ZjRkLTQ4MDctYmI5OS0xODExMDg1YzdiNDIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaGKGbkb4qy9I+X03/ksXaBkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo0MGE3ODZmMy1lZDU1LTQ3ZDAtOWExYS1hNTExNjBmMDU2ZDVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNozK7BHem5Yg/gwI5WFK+1xAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggbb74jE4snrPmmKUs5z6Hm6iF4yIPrMcPKblN6YkCuBGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEFCfj3hUSpzfnWqJ5BKbV8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIPoEMGZ2OSPK5VOdmXsuHZ5+s8/okCG2mwxb13IAu5m1ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GWT1Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjIyN2IwNDc0LTlmNGQtNDgwNy1iYjk5LTE4MTEwODVjN2I0Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjhiYjg2MzNkLTNjMTUtNGMwYS04OGE2LTNiMjU0NWI2MjUxNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBtvviMTiyes+aYpSznPoebqIXjIg+sxw8puU3piQK4EaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggWbZxdM4OxLMTmgypbqX2WjDHRlWu0TXtly/s2HIogm2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgggpp91KGFLQU6ztQrM8kBBwjK9qkrFZ+3yacec3ek4790Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCEtDzFMYd0JFXeBXMAHBQjr6J6eF9EUodjUYq8ncbXotQSLnjGd6MsUXd0N5OKMZdN+cNgUXO5mL0wCVZiYbOk=</c2pa:manifest></metadata></svg>
