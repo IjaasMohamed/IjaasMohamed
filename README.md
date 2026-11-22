@@ -1,4 +1,4 @@
-<!-- Theme: Studio Blue. No placeholders to replace. Optional blocks are marked OPTIONAL. -->
+<!-- Theme: Studio Blue. Animated scenes live in /assets (scene-pair, walk-strip, scene-footer, status-pulse, divider). -->
 
 <div align="center">
   <picture>
@@ -7,8 +7,8 @@
   </picture>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2200&pause=1800&color=70A5FD&center=true&vCenter=true&repeat=true&width=720&height=48&lines=I+turn+busy+operations+into+calm+and+usable+software.;Product+direction+%C2%B7+Workflow+design+%C2%B7+Web+%2B+Mobile;Got+a+problem+worth+solving%3F+Let%27s+talk.">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2200&pause=1800&color=2563EB&center=true&vCenter=true&repeat=true&width=720&height=48&lines=I+turn+busy+operations+into+calm+and+usable+software.;Product+direction+%C2%B7+Workflow+design+%C2%B7+Web+%2B+Mobile;Got+a+problem+worth+solving%3F+Let%27s+talk." width="720" alt="I turn busy operations into calm and usable software. Product direction, workflow design, web and mobile.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2200&pause=1800&color=70A5FD&center=true&vCenter=true&repeat=true&width=720&height=48&lines=Turning+busy+operations+into+calm+software;Web+%2B+mobile+%C2%B7+product+direction;Got+an+idea%3F+Let%27s+talk.">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2200&pause=1800&color=2563EB&center=true&vCenter=true&repeat=true&width=720&height=48&lines=Turning+busy+operations+into+calm+software;Web+%2B+mobile+%C2%B7+product+direction;Got+an+idea%3F+Let%27s+talk." width="720" alt="Turning busy operations into calm software. Web and mobile product direction.">
   </picture>
 
   <br>
@@ -20,91 +20,64 @@
 
   <br><br>
 
-  <a href="#selected-work">Selected work</a> ·
-  <a href="#right-now">Right now</a> ·
+  <a href="#selected-work">Work</a> ·
+  <a href="#github-activity">Activity</a> ·
   <a href="#start-a-conversation">Contact</a> ·
   <a href="https://github.com/IjaasMohamed?tab=repositories">Repositories</a>
 </div>
 
-## The idea behind my work
+<br>
 
-Most software fails in the gap between how a business really runs and how the tool expects it to run. I work in that gap.
+<img src="assets/scene-pair.svg" width="100%" alt="Two developers pair programming at a shared screen while coffee cups and glowing balls float around them">
 
-I’m **Ijaz Fouzer**, a developer with a design-minded toolkit. I shape web and mobile products that are useful, clear, and visually considered, from the workflow behind the screen to the details people actually see.
-
-Always building, always learning.
-
-<sub>he/him</sub>
+<p align="center"><b>Most software fails in the gap between how a business runs and how the tool expects it to.<br>I work in that gap.</b></p>
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <b>Product direction</b><br>
-      I define what a product should do, and why, before a line of code is written.
-    </td>
-    <td width="33%" valign="top">
-      <b>Workflow design</b><br>
-      I study how teams really work, then shape the software around that reality.
-    </td>
-    <td width="33%" valign="top">
-      <b>Build oversight</b><br>
-      I guide development through implementation and acceptance review, so what ships is what was needed.
-    </td>
+    <td width="33%" valign="top"><b>Direction</b><br>What to build, and why.</td>
+    <td width="33%" valign="top"><b>Workflow</b><br>Software shaped around real work.</td>
+    <td width="33%" valign="top"><b>Delivery</b><br>From build to acceptance.</td>
   </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" height="4" alt="">
+<img src="assets/walk-strip.svg" width="100%" alt="Two developers walking together, one with coffee and one with a laptop, while balls bounce along the path">
 
 ## Selected work
 
 <table>
   <tr>
-    <td>
+    <td width="50%" valign="top">
       <b>FOUXER Gaming Zone Manager</b><br>
-      One workspace for session billing, café sales, inventory, and daily closing, built for gaming lounge operators.
-      <br><br>
-      <b>My role:</b> Product direction, operational workflow design, and development oversight across the web portal and Windows cashier.<br>
-      <b>Highlights:</b> Configurable session pricing · Café checkout · Stock tracking · Role-based access · Financial reports · Offline cashier development
+      Billing, café sales, stock, and daily closing in one workspace for gaming lounges.
       <br><br>
       <img src="https://img.shields.io/badge/Status-Active%20development%20%C2%B7%20release%20validation-2563EB?style=flat-square" alt="Status: active development and release validation">
       <br><br>
       <details>
-        <summary>Under the hood</summary>
+        <summary>Role, highlights, stack</summary>
         <br>
-        Next.js · React · TypeScript · Tailwind CSS · PostgreSQL · Drizzle ORM · Better Auth
+        <b>Role:</b> product direction, workflow design, and development oversight across the web portal and Windows cashier.<br>
+        <b>Highlights:</b> session pricing, café checkout, stock tracking, role-based access, financial reports, offline cashier.<br>
+        <b>Stack:</b> Next.js, React, TypeScript, Tailwind CSS, PostgreSQL, Drizzle ORM, Better Auth.
       </details>
-      <sub>Private repository. <a href="https://linkedin.com/in/ijaas-f-948804112">Ask me for a walkthrough →</a></sub>
+      <sub>Private repository. <a href="https://linkedin.com/in/ijaas-f-948804112">Ask for a walkthrough →</a></sub>
     </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
+    <td width="50%" valign="top">
       <b>FOUXER Madrasa Management System (DQLI)</b><br>
-      Helps madrasa staff organize student records, attendance, Quran learning progress, and fees across branches.
-      <br><br>
-      <b>My role:</b> Product direction, staff workflow design, and development coordination through implementation and acceptance review.<br>
-      <b>Highlights:</b> Student and staff registration · Branch-specific permissions · Attendance · Learning and recitation tracking · Fee payments and receipts · Private document management
+      Student records, attendance, Quran progress, and fees for madrasa staff across branches.
       <br><br>
       <img src="https://img.shields.io/badge/Status-Active%20development%20%C2%B7%20acceptance%20in%20progress-2563EB?style=flat-square" alt="Status: active development, full-system acceptance in progress">
       <br><br>
       <details>
-        <summary>Under the hood</summary>
+        <summary>Role, highlights, stack</summary>
         <br>
-        React · TypeScript · Vite · Tailwind CSS · Supabase Auth · PostgreSQL
+        <b>Role:</b> product direction, staff workflow design, and development coordination through acceptance review.<br>
+        <b>Highlights:</b> registration, branch permissions, attendance, recitation tracking, fee receipts, private documents.<br>
+        <b>Stack:</b> React, TypeScript, Vite, Tailwind CSS, Supabase Auth, PostgreSQL.
       </details>
-      <sub>Private repository. <a href="https://linkedin.com/in/ijaas-f-948804112">Ask me for a walkthrough →</a></sub>
+      <sub>Private repository. <a href="https://linkedin.com/in/ijaas-f-948804112">Ask for a walkthrough →</a></sub>
     </td>
   </tr>
 </table>
-
-[Explore all my repositories →](https://github.com/IjaasMohamed?tab=repositories)
-
-## Right now
-
-- **Gaming Zone Manager:** in release validation, with the offline Windows cashier under development.
-- **DQLI:** full-system acceptance review is in progress.
 
 <img src="assets/divider.svg" width="100%" height="4" alt="">
 
@@ -129,7 +102,7 @@ Always building, always learning.
 </div>
 
 <details>
-<summary>Explore languages, contribution streaks, and milestones</summary>
+<summary>Languages, streaks, and milestones</summary>
 
 <br>
 
@@ -154,7 +127,7 @@ Always building, always learning.
   </picture>
 </div>
 
-Language percentages describe repository code, not proficiency. These cards are snapshots of activity, not a complete picture of my work.
+<sub>Cards are snapshots of activity, not a full picture of my work.</sub>
 
 </details>
 
@@ -163,16 +136,16 @@ Language percentages describe repository code, not proficiency. These cards are 
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake-dark.svg?v=1">
     <img src="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake.svg?v=1" alt="Contribution snake animation">
   </picture>
-</div> the contribution snake block here (see notes after this code) 
+</div>
 
-<img src="assets/divider.svg" width="100%" height="4" alt="">
+<img src="assets/walk-strip.svg" width="100%" alt="Two developers walking together, one with coffee and one with a laptop, while balls bounce along the path">
 
 ## Start a conversation
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2400&pause=2500&color=70A5FD&center=true&vCenter=true&repeat=true&width=720&height=52&lines=Have+a+project+or+an+idea%3F;Tell+me+what+you%27re+building.;Let%27s+make+it+work.+And+make+it+feel+right.">
-    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2400&pause=2500&color=2563EB&center=true&vCenter=true&repeat=true&width=720&height=52&lines=Have+a+project+or+an+idea%3F;Tell+me+what+you%27re+building.;Let%27s+make+it+work.+And+make+it+feel+right." width="720" alt="Have a project or an idea? Tell me what you're building.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2400&pause=2500&color=70A5FD&center=true&vCenter=true&repeat=true&width=720&height=52&lines=Have+an+idea%3F;Tell+me+what+you%27re+building.;Let%27s+make+it+feel+right.">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2400&pause=2500&color=2563EB&center=true&vCenter=true&repeat=true&width=720&height=52&lines=Have+an+idea%3F;Tell+me+what+you%27re+building.;Let%27s+make+it+feel+right." width="720" alt="Have an idea? Tell me what you're building.">
   </picture>
 
   <br>
@@ -188,29 +161,18 @@ Language percentages describe repository code, not proficiency. These cards are 
     <img src="https://img.shields.io/badge/Email-Write%20to%20me-1E293B?style=for-the-badge" alt="Email Ijaz">
   </a>
   -->
+
+  <br><br>
+
+  <sub>Two lines is enough to start.</sub>
+
+  <br><br>
+
+  <a href="https://stackoverflow.com/users/20230821">Stack Overflow</a> ·
+  <a href="https://reddit.com/user/IjaasFouzer">Reddit</a> ·
+  <a href="https://buymeacoffee.com/undyin0J">Buy me a coffee</a>
 </div>
 
 <br>
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><b>1 · Send two lines</b><br>Tell me what you’re building and where you could use another perspective.</td>
-    <td width="33%" valign="top"><b>2 · We talk it through</b><br>We look at the real workflow behind the idea, not just the screens.</td>
-    <td width="33%" valign="top"><b>3 · Get clarity</b><br>You leave with a clearer picture of what to build first.</td>
-  </tr>
-</table>
-
-<div align="center">
-
-[Stack Overflow](https://stackoverflow.com/users/20230821) ·
-[Reddit](https://reddit.com/user/IjaasFouzer) ·
-[Buy me a coffee](https://buymeacoffee.com/undyin0J)
-
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1A1B27,100:24283B&height=140&section=footer&text=Let%27s%20build%20it%20together&fontSize=30&fontColor=70A5FD&animation=twinkling&fontAlignY=75">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:DBEAFE&height=140&section=footer&text=Let%27s%20build%20it%20together&fontSize=30&fontColor=2563EB&animation=twinkling&fontAlignY=75" width="900" alt="Let's build it together">
-  </picture>
-</div>
+<img src="assets/scene-footer.svg" width="100%" alt="Let’s build it together, with coffee cups and glowing balls floating upward">
