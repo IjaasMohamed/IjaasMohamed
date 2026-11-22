@@ -1,66 +1,213 @@
+<!-- Theme: Studio Blue. No placeholders to replace. Optional blocks are marked OPTIONAL. -->
+
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:101827,100:243B65&amp;height=165&amp;text=Ijaz%20Fouzer&amp;fontSize=56&amp;fontColor=EAF2FF&amp;fontAlignY=39&amp;animation=fadeIn">
-    <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:EFF6FF,100:BFDBFE&amp;height=165&amp;text=Ijaz%20Fouzer&amp;fontSize=56&amp;fontColor=172554&amp;fontAlignY=39&amp;animation=fadeIn" width="800" alt="Ijaz Fouzer">
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1A1B27,100:24283B&height=200&section=header&text=Ijaz%20Fouzer&fontSize=56&fontColor=70A5FD&animation=fadeIn&fontAlignY=36&desc=Make%20it%20work.%20Make%20it%20feel%20right.&descSize=18&descAlignY=58">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:DBEAFE&height=200&section=header&text=Ijaz%20Fouzer&fontSize=56&fontColor=2563EB&animation=fadeIn&fontAlignY=36&desc=Make%20it%20work.%20Make%20it%20feel%20right.&descSize=18&descAlignY=58" width="900" alt="Ijaz Fouzer. Make it work. Make it feel right.">
   </picture>
-  <br>
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?lines=I+build+software+for+the+people+running+things.&amp;size=18&amp;width=540&amp;height=38&amp;center=true&amp;vCenter=true&amp;duration=1800&amp;repeat=false&amp;color=93C5FD">
-    <img src="https://readme-typing-svg.demolab.com/?lines=I+build+software+for+the+people+running+things.&amp;size=18&amp;width=540&amp;height=38&amp;center=true&amp;vCenter=true&amp;duration=1800&amp;repeat=false&amp;color=1D4ED8" width="540" alt="I build software for the people running things.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2200&pause=1800&color=70A5FD&center=true&vCenter=true&repeat=true&width=720&height=48&lines=I+turn+busy+operations+into+calm+and+usable+software.;Product+direction+%C2%B7+Workflow+design+%C2%B7+Web+%2B+Mobile;Got+a+problem+worth+solving%3F+Let%27s+talk.">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2200&pause=1800&color=2563EB&center=true&vCenter=true&repeat=true&width=720&height=48&lines=I+turn+busy+operations+into+calm+and+usable+software.;Product+direction+%C2%B7+Workflow+design+%C2%B7+Web+%2B+Mobile;Got+a+problem+worth+solving%3F+Let%27s+talk." width="720" alt="I turn busy operations into calm and usable software. Product direction, workflow design, web and mobile.">
   </picture>
+
+  <br>
+
+  <a href="https://linkedin.com/in/ijaas-f-948804112">
+    <img src="https://img.shields.io/badge/Start%20a%20conversation-2563EB?style=for-the-badge" alt="Start a conversation with Ijaz on LinkedIn">
+  </a>
+  <img src="assets/status-pulse.svg" height="36" alt="Open to conversations">
+
+  <br><br>
+
+  <a href="#selected-work">Selected work</a> ·
+  <a href="#right-now">Right now</a> ·
+  <a href="#start-a-conversation">Contact</a> ·
+  <a href="https://github.com/IjaasMohamed?tab=repositories">Repositories</a>
 </div>
 
-I’m **Ijaz** (he/him). I’m a developer with an interest in what happens on the other side of the screen. At a gaming lounge, that’s a cashier closing a tab after the internet drops. At a madrasa, it’s a teacher picking up where a student left off in their Quran recitation.
+## The idea behind my work
 
-Those are two of the problems I’m working on at **FOUXER**. If one reminds you of a problem in your own work, **[tell me about it on LinkedIn →](https://linkedin.com/in/ijaas-f-948804112)**
+Most software fails in the gap between how a business really runs and how the tool expects it to run. I work in that gap.
 
+I’m **Ijaz Fouzer**, a developer with a design-minded toolkit. I shape web and mobile products that are useful, clear, and visually considered, from the workflow behind the screen to the details people actually see.
+
+Always building, always learning.
+
+<sub>he/him</sub>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Product direction</b><br>
+      I define what a product should do, and why, before a line of code is written.
+    </td>
+    <td width="33%" valign="top">
+      <b>Workflow design</b><br>
+      I study how teams really work, then shape the software around that reality.
+    </td>
+    <td width="33%" valign="top">
+      <b>Build oversight</b><br>
+      I guide development through implementation and acceptance review, so what ships is what was needed.
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" height="4" alt="">
 ## Selected work
 
-### FOUXER Gaming Zone Manager
+<table>
+  <tr>
+    <td>
+      <b>FOUXER Gaming Zone Manager</b><br>
+      One workspace for session billing, café sales, inventory, and daily closing, built for gaming lounge operators.
+      <br><br>
+      <b>My role:</b> Product direction, operational workflow design, and development oversight across the web portal and Windows cashier.<br>
+      <b>Highlights:</b> Configurable session pricing · Café checkout · Stock tracking · Role-based access · Financial reports · Offline cashier development
+      <br><br>
+      <img src="https://img.shields.io/badge/Status-Active%20development%20%C2%B7%20release%20validation-2563EB?style=flat-square" alt="Status: active development and release validation">
+      <br><br>
+      <details>
+        <summary>Under the hood</summary>
+        <br>
+        Next.js · React · TypeScript · Tailwind CSS · PostgreSQL · Drizzle ORM · Better Auth
+      </details>
+      <sub>Private repository. <a href="https://linkedin.com/in/ijaas-f-948804112">Ask me for a walkthrough →</a></sub>
+    </td>
+  </tr>
+</table>
 
-A player can pause a session, switch controllers, and order tea before checking out. Gaming Zone Manager helps the cashier keep the playing time, rate changes, and café tab together. At closing time, the owner can see what was sold, what was collected, and what remains unpaid.
+<table>
+  <tr>
+    <td>
+      <b>FOUXER Madrasa Management System (DQLI)</b><br>
+      Helps madrasa staff organize student records, attendance, Quran learning progress, and fees across branches.
+      <br><br>
+      <b>My role:</b> Product direction, staff workflow design, and development coordination through implementation and acceptance review.<br>
+      <b>Highlights:</b> Student and staff registration · Branch-specific permissions · Attendance · Learning and recitation tracking · Fee payments and receipts · Private document management
+      <br><br>
+      <img src="https://img.shields.io/badge/Status-Active%20development%20%C2%B7%20acceptance%20in%20progress-2563EB?style=flat-square" alt="Status: active development, full-system acceptance in progress">
+      <br><br>
+      <details>
+        <summary>Under the hood</summary>
+        <br>
+        React · TypeScript · Vite · Tailwind CSS · Supabase Auth · PostgreSQL
+      </details>
+      <sub>Private repository. <a href="https://linkedin.com/in/ijaas-f-948804112">Ask me for a walkthrough →</a></sub>
+    </td>
+  </tr>
+</table>
 
-**My role** · I shape the pricing and checkout workflows and oversee development across the web portal and Windows cashier.
+[Explore all my repositories →](https://github.com/IjaasMohamed?tab=repositories)
 
-**On my workbench** · Testing what happens when a cashier records a sale offline, restarts the till, and reconnects. The receipt should keep its number, the payment should appear once, and stock should drop by exactly what was sold.
+## Right now
 
-[Source repository · private, access required](https://github.com/IjaasMohamed/BookingSystem)
+- **Gaming Zone Manager:** in release validation, with the offline Windows cashier under development.
+- **DQLI:** full-system acceptance review is in progress.
 
-### FOUXER Madrasa Management System · DQLI
+<img src="assets/divider.svg" width="100%" height="4" alt="">
+## GitHub activity
 
-A teacher opening a class needs to know who attended, what each student recited, and what to cover next. DQLI keeps that history with the student while giving branch staff the records they need for enrollment, fee payments, and receipts.
+<div align="center">
+  <a href="https://github.com/IjaasMohamed">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=IjaasMohamed&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&bg_color=1A1B27&title_color=70A5FD&icon_color=70A5FD&text_color=A9B1D6">
+      <img src="https://github-stats-extended.vercel.app/api?username=IjaasMohamed&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&bg_color=FFFFFF&title_color=2563EB&icon_color=2563EB&text_color=334155" width="420" alt="GitHub statistics for IjaasMohamed">
+    </picture>
+  </a>
 
-**My role** · I help define how teachers, administrators, and finance staff use the system, then coordinate development and review those workflows with the school’s requirements in hand.
+  <br><br>
 
-**On my workbench** · Checking a student’s printed progress card against the classroom record, down to the subject marks and the space for the teacher’s and principal’s signatures.
-
-[Source repository · private, access required](https://github.com/IjaasMohamed/dqli)
+  <a href="https://github.com/IjaasMohamed">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=IjaasMohamed&bg_color=1A1B27&color=A9B1D6&title_color=70A5FD&line=70A5FD&point=70A5FD&area=true&area_color=70A5FD&hide_border=true&height=250">
+      <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=IjaasMohamed&bg_color=FFFFFF&color=334155&title_color=2563EB&line=2563EB&point=2563EB&area=true&area_color=2563EB&hide_border=true&height=250" width="760" alt="GitHub contribution activity over the last 31 days">
+    </picture>
+  </a>
+</div>
 
 <details>
-<summary>Explore my GitHub activity</summary>
+<summary>Explore languages, contribution streaks, and milestones</summary>
 
 <br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=IjaasMohamed&amp;hide_rank=true&amp;hide_border=true&amp;show_icons=true&amp;bg_color=101827&amp;title_color=93C5FD&amp;icon_color=93C5FD&amp;text_color=EAF2FF">
-  <img src="https://github-stats-extended.vercel.app/api?username=IjaasMohamed&amp;hide_rank=true&amp;hide_border=true&amp;show_icons=true&amp;bg_color=EFF6FF&amp;title_color=1D4ED8&amp;icon_color=1D4ED8&amp;text_color=172554" width="400" alt="Public GitHub activity for IjaasMohamed">
-</picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=IjaasMohamed&layout=compact&langs_count=6&hide_border=true&bg_color=1A1B27&title_color=70A5FD&text_color=A9B1D6">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=IjaasMohamed&layout=compact&langs_count=6&hide_border=true&bg_color=FFFFFF&title_color=2563EB&text_color=334155" width="350" alt="Most-used languages across public repositories">
+  </picture>
 
-[Browse my repositories →](https://github.com/IjaasMohamed?tab=repositories) · [View my contribution history →](https://github.com/IjaasMohamed)
+  <br><br>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=IjaasMohamed&hide_border=true&background=1A1B27&ring=70A5FD&fire=70A5FD&currStreakLabel=70A5FD&sideLabels=70A5FD&currStreakNum=A9B1D6&sideNums=A9B1D6&dates=A9B1D6&stroke=A9B1D6">
+    <img src="https://streak-stats.demolab.com/?user=IjaasMohamed&hide_border=true&background=FFFFFF&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=2563EB&currStreakNum=334155&sideNums=334155&dates=334155&stroke=334155" width="420" alt="Total contributions, current streak, and longest contribution streak">
+  </picture>
+
+  <br><br>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.devomb.com/?username=IjaasMohamed&theme=tokyonight&column=3&row=1&title=Commits,Repositories,PullRequest&no-bg=true&no-frame=true">
+    <img src="https://github-trophies.devomb.com/?username=IjaasMohamed&theme=flat&column=3&row=1&title=Commits,Repositories,PullRequest&no-bg=true&no-frame=true" width="360" alt="Automatically generated GitHub milestones for commits, repositories, and pull requests">
+  </picture>
+</div>
+
+Language percentages describe repository code, not proficiency. These cards are snapshots of activity, not a complete picture of my work.
 
 </details>
 
-## What’s the awkward step in your workflow?
+ <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake.svg" alt="Contribution snake animation">
+  </picture>
+</div> the contribution snake block here (see notes after this code) 
 
-Maybe it’s the number someone copies into a second spreadsheet at closing time, or the record a teacher has to search for before class. If you’re looking for a developer or a collaborator, that one detail is a good place to start.
-
-**[Message me on LinkedIn →](https://linkedin.com/in/ijaas-f-948804112)**
-
-[Instagram](https://instagram.com/ijaas_fouzer) · [Stack Overflow](https://stackoverflow.com/users/20230821) · [Reddit](https://reddit.com/user/IjaasFouzer) · [Buy me a coffee](https://buymeacoffee.com/undyin0J)
+<img src="assets/divider.svg" width="100%" height="4" alt="">
+## Start a conversation
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;section=footer&amp;height=110&amp;color=0:101827,100:243B65&amp;text=Make%20it%20work.%20Make%20it%20feel%20right.&amp;fontSize=28&amp;fontAlignY=76&amp;fontColor=EAF2FF&amp;animation=fadeIn">
-    <img src="https://capsule-render.vercel.app/api?type=waving&amp;section=footer&amp;height=110&amp;color=0:EFF6FF,100:BFDBFE&amp;text=Make%20it%20work.%20Make%20it%20feel%20right.&amp;fontSize=28&amp;fontAlignY=76&amp;fontColor=172554&amp;animation=fadeIn" width="800" alt="Make it work. Make it feel right.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2400&pause=2500&color=70A5FD&center=true&vCenter=true&repeat=true&width=720&height=52&lines=Have+a+project+or+an+idea%3F;Tell+me+what+you%27re+building.;Let%27s+make+it+work.+And+make+it+feel+right.">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2400&pause=2500&color=2563EB&center=true&vCenter=true&repeat=true&width=720&height=52&lines=Have+a+project+or+an+idea%3F;Tell+me+what+you%27re+building.;Let%27s+make+it+work.+And+make+it+feel+right." width="720" alt="Have a project or an idea? Tell me what you're building.">
+  </picture>
+
+  <br>
+
+  <a href="https://linkedin.com/in/ijaas-f-948804112">
+    <img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-2563EB?style=for-the-badge" alt="Message Ijaz on LinkedIn">
+  </a>
+  <a href="https://instagram.com/ijaas_fouzer">
+    <img src="https://img.shields.io/badge/Instagram-DM%20me-1E293B?style=for-the-badge" alt="Message Ijaz on Instagram">
+  </a>
+  <!-- OPTIONAL email button: replace you@example.com, then remove the comment markers
+  <a href="mailto:you@example.com">
+    <img src="https://img.shields.io/badge/Email-Write%20to%20me-1E293B?style=for-the-badge" alt="Email Ijaz">
+  </a>
+  -->
+</div>
+
+<br>
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><b>1 · Send two lines</b><br>Tell me what you’re building and where you could use another perspective.</td>
+    <td width="33%" valign="top"><b>2 · We talk it through</b><br>We look at the real workflow behind the idea, not just the screens.</td>
+    <td width="33%" valign="top"><b>3 · Get clarity</b><br>You leave with a clearer picture of what to build first.</td>
+  </tr>
+</table>
+
+<div align="center">
+
+[Stack Overflow](https://stackoverflow.com/users/20230821) ·
+[Reddit](https://reddit.com/user/IjaasFouzer) ·
+[Buy me a coffee](https://buymeacoffee.com/undyin0J)
+
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1A1B27,100:24283B&height=140&section=footer&text=Let%27s%20build%20it%20together&fontSize=30&fontColor=70A5FD&animation=twinkling&fontAlignY=75">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFFFF,100:DBEAFE&height=140&section=footer&text=Let%27s%20build%20it%20together&fontSize=30&fontColor=2563EB&animation=twinkling&fontAlignY=75" width="900" alt="Let's build it together">
   </picture>
 </div>

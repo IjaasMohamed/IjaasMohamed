@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="36" viewBox="0 0 220 36" role="img" aria-label="Open to conversations">
+  <style>
+    .pill{fill:#0F172A;stroke:#22C55E;stroke-width:1.5}
+    .txt{font:600 13px 'Segoe UI',Arial,sans-serif;fill:#E2E8F0}
+    .dot{fill:#22C55E}
+    .ring{fill:none;stroke:#22C55E;stroke-width:2;transform-box:fill-box;transform-origin:center;animation:pulse 1.8s ease-out infinite}
+    @keyframes pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.2);opacity:0}}
+  </style>
+  <rect class="pill" x="1" y="1" width="218" height="34" rx="17"/>
+  <circle class="ring" cx="20" cy="18" r="4.5"/>
+  <circle class="dot" cx="20" cy="18" r="4.5"/>
+  <text class="txt" x="36" y="23">Open to conversations</text>
+</svg>
