@@ -54,6 +54,7 @@ Always building, always learning.
 </table>
 
 <img src="assets/divider.svg" width="100%" height="4" alt="">
+
 ## Selected work
 
 <table>
@@ -106,6 +107,7 @@ Always building, always learning.
 - **DQLI:** full-system acceptance review is in progress.
 
 <img src="assets/divider.svg" width="100%" height="4" alt="">
+
 ## GitHub activity
 
 <div align="center">
@@ -156,14 +158,15 @@ Language percentages describe repository code, not proficiency. These cards are 
 
 </details>
 
- <div align="center">
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake.svg" alt="Contribution snake animation">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake-dark.svg?v=1">
+    <img src="https://raw.githubusercontent.com/IjaasMohamed/IjaasMohamed/output/github-snake.svg?v=1" alt="Contribution snake animation">
   </picture>
 </div> the contribution snake block here (see notes after this code) 
 
 <img src="assets/divider.svg" width="100%" height="4" alt="">
+
 ## Start a conversation
 
 <div align="center">
