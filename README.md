@@ -81,16 +81,6 @@
 
 <img src="assets/divider.svg" width="100%" height="4" alt="">
 
-## GitHub activity
-
-<div align="center">
-  <a href="https://github.com/IjaasMohamed">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=IjaasMohamed&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&bg_color=1A1B27&title_color=70A5FD&icon_color=70A5FD&text_color=A9B1D6">
-      <img src="https://github-stats-extended.vercel.app/api?username=IjaasMohamed&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&bg_color=FFFFFF&title_color=2563EB&icon_color=2563EB&text_color=334155" width="420" alt="GitHub statistics for IjaasMohamed">
-    </picture>
-  </a>
-
   <br><br>
 
   <a href="https://github.com/IjaasMohamed">
